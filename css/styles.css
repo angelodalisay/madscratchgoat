@@ -1,14 +1,15 @@
-@import url("reset.css");
-
 @font-face {
     font-family: "againts", Verdana, Geneva, Tahoma, sans-serif;
     src: url('../fonts/againts.otf');
 }
+
+
+
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     color:#fff;
-    background-color: #000;
+    /* background-color: black; */
     /* background:url('../img/msg.png') no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,7 +35,6 @@ h2 {
     font-size: 85px;
     color: #fff;
     display: block;
-    z-index: 103;
     position:relative;
     bottom: 0;
     text-align: center;
