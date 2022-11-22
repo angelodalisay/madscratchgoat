@@ -1,0 +1,5 @@
+@import url("reset.css");
+@font-face {
+    font-family: "againts", Verdana, Geneva, Tahoma, sans-serif;
+    src: url('../fonts/againts.otf');
+}
