@@ -21,7 +21,10 @@ jobs:
          key: ${{ secrets.SSH_PRIVATE_KEY }}
          known_hosts: 'known-placeholder'
       - name: Adding Known Hosts
-        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+        run: cd ~/.ssh/
+        run: ls -al
+        run: whoami
+        #run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
