@@ -17,9 +17,9 @@ jobs:
     steps:
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
-        with: 'known-placeholder'
+        with: 
          key: ${{ secrets.SSH_PRIVATE_KEY }}
-         known_hosts: 
+         known_hosts: 'known-placeholder'
       - name: Adding Known Hosts
          run: ssh-keyscan -H '${{secrets.KSSH_HOST}}' >> ~/.ssh/known_hosts
       - uses: actions/checkout@v3
