@@ -27,7 +27,8 @@ jobs:
           cat known_hosts
       - name: PULL
         run: |
-          ssh ${{ secrets.SSH_USER }} -p 7822
+          ssh ${{ secrets.SSH_USER }} 
+        #  -p 7822
           pwd
          # "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
       # - name: Deploy with rsync
