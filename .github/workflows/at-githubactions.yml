@@ -19,9 +19,8 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with: 
          key: ${{ secrets.SSH_PRIVATE_KEY }}
-         known_hosts: github_actions
-      - name: Get Known Hosts
-        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+         name: github_actions
+         known_hosts: ${{ secrets.SSH_HOST }}
       - name: PULL
         run: ssh -p 7822 ${{ secrets.SSH_USER }} "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
       # - name: Deploy with rsync
