@@ -24,8 +24,7 @@ jobs:
       - name: git test
         run: |
           cd /home/runner/.ssh
-          ls -a
-          pwd
+          cat known_hosts
       #- name: PULL
        # run: ssh -p 7822 ${{ secrets.SSH_USER }} "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
       # - name: Deploy with rsync
