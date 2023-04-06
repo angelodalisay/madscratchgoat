@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Install SSH Key
-        uses: shimatrao/ssh-key-action@v2
+        uses: shimataro/ssh-key-action@v2
         with:
          key: ${{ secrets.SSH_PRIVATE_KEY }}
          known_hosts: 'placeholder_for_errors'
