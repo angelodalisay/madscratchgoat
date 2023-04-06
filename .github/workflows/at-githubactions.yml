@@ -28,7 +28,8 @@ jobs:
       - name: PULL
         run: |
           ssh -p 7822 ${{ secrets.SSH_USER }} 
-          "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
+          pwd
+         # "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
       # - name: Deploy with rsync
       #   run: 
       # - uses: actions/checkout@v3
