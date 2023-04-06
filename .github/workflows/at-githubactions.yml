@@ -20,9 +20,14 @@ jobs:
         with: 
          key: ${{ secrets.SSH_PRIVATE_KEY }}
          name: github_actions
-         known_hosts: ${{ secrets.SSH_HOST }}
-      - name: PULL
-        run: ssh -p 7822 ${{ secrets.SSH_USER }} "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
+         known_hosts: ${{ secrets.SSH_HOST }} # known_hosts; optional
+      - name: git test
+        run: |
+          cd /home/runner/.ssh
+          ls -a
+          pwd
+      #- name: PULL
+       # run: ssh -p 7822 ${{ secrets.SSH_USER }} "cd ${{ secrets.DEV_ENVIRONMENT }}  && /usr/bit/git pull origin AT"
       # - name: Deploy with rsync
       #   run: 
       # - uses: actions/checkout@v3
