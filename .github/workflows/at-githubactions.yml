@@ -27,5 +27,5 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }} 
         password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
+        proxy_port: ${{ secrets.PORT }}
         script: whoami
