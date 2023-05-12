@@ -15,7 +15,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: 'development',
-  target: 'node',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
