@@ -1,11 +1,7 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
 
-app.get('/', (req, res) =>  {
-    res.send('Hello World!');
-});
-
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-});
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(<App />);
