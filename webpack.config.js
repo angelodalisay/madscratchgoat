@@ -27,6 +27,11 @@ module.exports = {
         exclude: /node_modules/,
         use: ["babel-loader"],
       },
+      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+      {
+        test: /\.png/,
+        type: 'asset/resource'
+      }
     ],
   },
   // pass all js files through Babel
