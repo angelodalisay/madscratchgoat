@@ -1,0 +1,61 @@
+#header-1 {
+      background-color: rgb(11, 10, 10);
+      font-family: 'Titillium Web';
+      font-size: 56px;
+      color:rgb(246, 243, 242);
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+#images-box{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+#image1{
+      height: 300px;
+      width: 400px;
+      object-fit: fill;
+      border: 1px solid black;
+      border-radius: 6px;
+}
+#image2{
+      height: 300px;
+      width: 400px;
+      object-fit: fill;
+      border: 1px solid black;
+      border-radius: 6px;
+}
+#image3{
+      height: 300px;
+      width: 400px;
+      object-fit: fill;
+      border: 1px solid black;
+      border-radius: 6px;
+}
+
+#chevron-box{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+#chevrons {
+      margin: 31px;
+}
+#chevrons:hover {
+      cursor: pointer;
+}
+
+
+
+#paragraphs {
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 32px;
+      font-family: 'Titillium Web';
+      color:rgb(246, 243, 242);
+}
