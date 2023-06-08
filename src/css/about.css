@@ -38,11 +38,7 @@
       width: 350px;
       object-fit: cover;
     }
-    
-    .slick-slide div{
-      /* margin: 0 1rem; */
-      /* margin-left: 12%; */
-    }
+  
     
     .slick-dots li.slick-active button:before {
       color: rgb(227, 237, 227) !important;
