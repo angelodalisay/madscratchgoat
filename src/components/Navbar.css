@@ -7,7 +7,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(36, 36, 36, 0.8);
+    /* background: rgba(246, 247, 248, 0.05); */
+    /* backdrop-filter: blur(2px); */
+    /* background-color: rgba(36, 36, 36, 0.8); */
     /* position: absolute; */
     height: 89px;
     width: 100vw;
@@ -26,6 +28,8 @@ a {
     line-height: 14px;
     color: #FAFBFC;
     margin-top: 5px;
+    /* background: rgba(246, 247, 248, 0.05);
+    backdrop-filter: blur(2px); */
 }
 
 .logo {
@@ -38,6 +42,7 @@ a {
         padding-left: 10vw;
         padding-right: 15vw;
     }
+
     .nav-item {
         font-size: 24px;
         line-height: 28.8px;
