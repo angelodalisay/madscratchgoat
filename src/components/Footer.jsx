@@ -1,4 +1,4 @@
-import './Footer.css'
+import '../css/Footer.css'
 import Instagram from "../assets/ph_instagram-logo-light.png"
 import Facebook from "../assets/ph_facebook-logo-light.png"
 import Twitter from "../assets/iconoir_twitter.png"

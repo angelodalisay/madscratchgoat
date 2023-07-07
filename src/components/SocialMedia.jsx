@@ -1,6 +1,4 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faInstagram, faFacebook, faTwitter, faTiktok } from '@fortawesome/free-brands-svg-icons'
-import './SocialMedia.css'
+import '../css/SocialMedia.css'
 import Instagram from "../assets/ph_instagram-logo-light.png"
 import Facebook from "../assets/ph_facebook-logo-light.png"
 import Twitter from "../assets/iconoir_twitter.png"
