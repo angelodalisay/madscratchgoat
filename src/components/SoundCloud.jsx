@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player/soundcloud";
-import './SoundCloud.css'
+import '../css/SoundCloud.css'
 
 
 
