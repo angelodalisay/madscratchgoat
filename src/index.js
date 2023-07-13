@@ -1,7 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import './css/carousel.css'
+import './css/index.css'
+import './css/about.css'
 
 const container = document.getElementById("root");
 const root = createRoot(container);
