@@ -1,27 +1,29 @@
 .footer-container {
     margin-top: 48px;
+    padding: 100px;
 }
 
 .footer-sub-container {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 40px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    margin-bottom: 18px;
 }
 
 .footer-social-media {
-    width: 50%;
+    width: 50vw;
     margin-right: 24px;
 }
 
-.footer-title {
+/* .footer-title {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 600;
     margin-bottom: 24px;
-}
+} */
 
 .footer-icon {
-    width: 24px;
+    width: 48px;
     margin-right: 16px;
 }
 
@@ -37,15 +39,17 @@
 
 .copywrite {
     font-family: Roboto;
-    font-size: 12px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 10px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     padding-bottom: 20px;
 }
 
 @media (min-width: 1025px) {
     .footer-container {
         margin-top: 118px;
+        padding-left: 145px;
+        padding-right: 145px;
     }
 
     .footer-title {
@@ -53,16 +57,20 @@
     }
 
     .footer-icon {
-        width: 32px;
+        width: 34px;
     }
 
-    .footer-sub-container, .copywrite {
+    /* .footer-sub-container {
         padding-left: 140px;
         padding-right: 140px
-    }
+    } */
 
     .footer-links {
         padding-left: 150px;
+    }
+
+    .copywrite {
+        font-size: 20px;
     }
 
 }
