@@ -12,6 +12,8 @@
 ```
 
 - once node is running go to `http://localhost:3000` for local development
+- test site: https://test.madscratchgoat.com
+- production site: https://www.madscratchgoat.com 
 
 ### Adding a .env file
 

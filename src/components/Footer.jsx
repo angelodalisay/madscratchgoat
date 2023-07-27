@@ -25,7 +25,10 @@ export default function Footer() {
                     <a href="" className="website-link">www.website.com</a>
                 </div>
             </div>
-            <p className="copywrite">Copywrite 2023 MADSCRATCH G.O.A.T.</p>
+            <script>
+
+            </script>
+            <p className="copywrite">Copywrite { new Date().getFullYear()} MADSCRATCH G.O.A.T</p>
         </div>
     )
 }
