@@ -7,7 +7,7 @@ export default function SoundCloud() {
 
 
     return (
-        <div className="sound-cloud-section">
+        <div className="sound-cloud-section" id="music">
             <p className="title">Music</p>
             <div className="music-player-container">
                 <div id="player1" className="player">
