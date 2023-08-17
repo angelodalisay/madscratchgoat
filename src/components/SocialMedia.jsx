@@ -11,8 +11,8 @@ export default function SocialMedia() {
         <div className="social-media-section">
             <p className="title">Connect with us</p>
             <div className="icon-container">
-                <a href=""><img src={Instagram} alt="instagram icon" className="icon"/></a>
-                <a href=""><img src={Facebook} alt="facebook icon" className="icon"/></a>
+                <a href=" https://www.instagram.com/madscratchgoat/ "target="_blank" ><img src={Instagram} alt="instagram icon" className="icon"/></a>
+                <a href="https://www.facebook.com/madscratchgoat/ "target="_blank" ><img src={Facebook} alt="facebook icon" className="icon"/></a>
                 <a href=""><img src={Twitter} alt="facebook icon" className="icon"/></a>
                 <a href=""><img src={TikTok} alt="facebook icon" className="icon"/></a>
             </div>
