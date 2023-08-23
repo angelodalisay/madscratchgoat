@@ -1,0 +1,265 @@
+.contact-us {
+    margin-left: 15%;
+    width: 1436px;
+    height: 1092px;
+    flex-shrink: 0;
+}
+
+.header {
+    width: 1152px;
+    color: #fafbfc;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+
+.asterisk {
+    width: 1152px;
+    color: #fafbfc;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.text-input {
+    display: flex;
+    width: 461px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-bottom: 40px;
+}
+
+.label {
+    color: #fafbfc;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name-input {
+    display: flex;
+    padding: 16px 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #fafbfc;
+    color: #8e8e8e;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.email-input {
+    display: flex;
+    padding: 16px 8px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #FAFBFC;
+    color: #8E8E8E;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+}
+
+.message {
+    display: flex;
+    width: 1152px;
+    height: 398px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.message-input {
+    display: flex;
+    padding: 16px 8px;
+    align-items: flex-start;
+    
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #FAFBFC;
+    color: #8E8E8E;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit {
+    display: flex;
+    padding: 8px 32px;
+    justify-content: flex-end;
+    margin-top: 70px;
+    margin-left: 905px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #8E8E8E;
+    box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #242424;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+        width: 390px;
+        height: 712px;
+        flex-shrink: 0;
+    }
+
+    .header {
+        width: 360px;
+        color: #fafbfc;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .asterisk {
+        width: 360px;
+        color: #fafbfc;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .name {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .name-label {
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .name-input {
+        display: flex;
+        width: 360px;
+        padding: 16px 8px;
+        align-items: flex-start;
+        gap: 4px;
+        border-radius: 4px;
+        border: 1px solid #fafbfc;
+        color: #FFF;
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .email {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .email-label {
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .email-input {
+        display: flex;
+        width: 360px;
+        padding: 16px 8px;
+        align-items: flex-start;
+        gap: 4px;
+        border-radius: 4px;
+        border: 1px solid #fafbfc;
+        color: #fff;
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .message {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .message-label {
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .message-input {
+        display: flex;
+        width: 360px;
+        height: 256px;
+        padding: 16px 8px;
+        align-items: flex-start;
+        gap: 8px;border-radius: 4px;
+        border: 1px solid #fafbfc;
+        
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .submit {
+        display: flex;
+        width: 360px;
+        padding: 8px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 4px;
+        background: #8e8e8e;
+        box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.25);
+        color: #242424;
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

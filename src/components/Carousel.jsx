@@ -36,12 +36,12 @@ function Carousel() {
               
                 <Slider {...settings}>
 
-                    <img src={image1} alt='' style="width:100%;" />
+                    <img src={image1} alt='' />
                     
-                    <img src={img2} alt='' style="width:100%;" />
+                    <img src={img2} alt='' />
                     
-                    <img src={img3} alt='' style="width:100%;" />
-                    <img src={img4} alt='' style="width:100%;" />
+                    <img src={img3} alt='' />
+                    <img src={img4} alt='' />
                     
                 </Slider>
 

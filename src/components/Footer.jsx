@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="footer-container">
             <div className="footer-sub-container">
                 <div className="footer-social-media">
-                    <p className="footer-title">Social Media</p>
+                    {/* <p className="footer-title">Social Media</p> */}
                     <div>
                     <a href=""><img src={Instagram} alt="instagram icon" className="footer-icon"/></a>
                 <a href=""><img src={Facebook} alt="facebook icon" className="footer-icon"/></a>
@@ -20,12 +20,15 @@ export default function Footer() {
                 
                 </div>
                 <div className="footer-links">
-                    <p className="footer-title">Links</p>
+                    {/* <p className="footer-title">Links</p>
                     <a href="" className="website-link">www.website.com</a>
-                    <a href="" className="website-link">www.website.com</a>
+                    <a href="" className="website-link">www.website.com</a> */}
                 </div>
             </div>
-            <p className="copywrite">Copywrite 2023 MADSCRATCH G.O.A.T.</p>
+            <script>
+
+            </script>
+            <p className="copywrite">Copywrite { new Date().getFullYear()} MADSCRATCH G.O.A.T</p>
         </div>
     )
 }
