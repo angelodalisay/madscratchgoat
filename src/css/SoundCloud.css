@@ -11,7 +11,7 @@
 
 .music-player-container {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
     gap: 10px;
     margin: 10px;
 }
@@ -33,6 +33,10 @@
     grid-column: 3;
 }
 
+#player4 {
+    grid-column: 4;
+}
+
 
 @media (min-width: 1025px) {
     .sound-cloud-section {
@@ -45,7 +49,7 @@
     }
 
     .music-player-container {
-        gap: 100px;
+        gap: 66px;
     }
 
     .player {
