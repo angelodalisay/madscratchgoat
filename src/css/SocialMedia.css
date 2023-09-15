@@ -1,7 +1,7 @@
 .social-media-section {
-    padding: 15px;
     margin-top: 41px;
     margin-bottom: 70px;
+    margin-left: 10%;
 }
 
 .title {
@@ -24,8 +24,7 @@
 
 @media (min-width: 1025px) {
     .social-media-section {
-        padding-left: 145px;
-        padding-right: 145px;
+
     }
 
     .title {

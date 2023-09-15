@@ -13,11 +13,9 @@ export default function App() {
         <div>
             <Navbar />
             <Carousel />
-            <BookNowButton />
             <About />
             <SocialMedia />
             <SoundCloud />
-            {/* <Hello /> */}
             <Contact />
             <Footer />
         </div>

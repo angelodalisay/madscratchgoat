@@ -1,12 +1,15 @@
+#contact {
+    display:block;
+    width: 75%;
+    margin-left:10%;
+    padding-top: 5%;
+}
+
 .contact-us {
-    margin-left: 15%;
-    width: 1436px;
-    height: 1092px;
     flex-shrink: 0;
 }
 
-.header {
-    width: 1152px;
+#contact .header {
     color: #fafbfc;
     font-family: 'Open Sans';
     font-size: 32px;
@@ -16,8 +19,8 @@
     padding-bottom: 15px;
 }
 
-.asterisk {
-    width: 1152px;
+#contact .asterisk {
+
     color: #fafbfc;
     font-family: 'Roboto';
     font-size: 16px;
@@ -27,16 +30,16 @@
     padding-bottom: 40px;
 }
 
-.text-input {
+#contact .text-input {
     display: flex;
-    width: 461px;
+    width: 50%;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
     padding-bottom: 40px;
 }
 
-.label {
+#contact .label {
     color: #fafbfc;
     font-family: 'Lato';
     font-size: 16px;
@@ -79,8 +82,7 @@
 
 .message {
     display: flex;
-    width: 1152px;
-    height: 398px;
+    height: 400px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -91,7 +93,6 @@
     display: flex;
     padding: 16px 8px;
     align-items: flex-start;
-    
     gap: 8px;
     flex: 1 0 0;
     align-self: stretch;
@@ -106,11 +107,10 @@
 }
 
 .submit {
-    display: flex;
+    float:right;
     padding: 8px 32px;
     justify-content: flex-end;
-    margin-top: 70px;
-    margin-left: 905px;
+    margin-top: 30px;
     gap: 8px;
     border-radius: 4px;
     background: #8E8E8E;
@@ -122,6 +122,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+span.sentEmail {
+    display:none;
 }
 
 @media only screen and (max-width: 600px) {

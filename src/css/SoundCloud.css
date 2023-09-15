@@ -1,5 +1,5 @@
 .sound-cloud-section {
-    padding: 100px;
+    margin-left: 10%;
 }
 
 .title {
@@ -36,8 +36,7 @@
 
 @media (min-width: 1025px) {
     .sound-cloud-section {
-        padding-left: 145px;
-        padding-right: 145px;
+
     }
 
     .title {
