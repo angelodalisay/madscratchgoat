@@ -6,6 +6,7 @@ import About from "./components/About";
 import SoundCloud from "./components/SoundCloud";
 import SocialMedia from "./components/SocialMedia";
 import Contact from "./components/Contact";
+import ScrollToTopButton from "./components/ScrottToTopButton";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
             <SocialMedia />
             <SoundCloud />
             <Contact />
+            <ScrollToTopButton />
             <Footer />
         </div>
 
