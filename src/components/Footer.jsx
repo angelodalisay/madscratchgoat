@@ -1,10 +1,5 @@
 import '../css/Footer.css'
 import SocialMedia from "./SocialMedia";
-import Instagram from "../assets/ph_instagram-logo-light.png"
-import Facebook from "../assets/ph_facebook-logo-light.png"
-import Twitter from "../assets/iconoir_twitter.png"
-import TikTok from "../assets/iconoir_tiktok.png"
-
 
 export default function Footer() {
     return (
