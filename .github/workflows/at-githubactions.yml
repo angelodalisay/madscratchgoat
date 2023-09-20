@@ -15,7 +15,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16.x'
+        node-version: 18
     - name: Install npm dependecies
       run: npm ci
     - name: Run build
@@ -28,4 +28,3 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }} 
         password: ${{ secrets.PASSWORD }}
         proxy_port: ${{ secrets.PORT }}
-        script: whoami
