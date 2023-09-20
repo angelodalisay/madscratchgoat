@@ -1,26 +1,15 @@
 .footer-container {
-    margin-top: 48px;
-    padding: 100px;
+    display:flex;
+    margin-bottom: 10px;
 }
 
-.footer-sub-container {
-    display: flex;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    margin-bottom: 18px;
+.footer-container .social-media-section .icon-container {
+    display:flex;
+    width:100%;
 }
-
-.footer-social-media {
-    width: 50vw;
-    margin-right: 24px;
+.footer-container .social-media-section {
+    padding: 0;
 }
-
-/* .footer-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 24px;
-} */
 
 .footer-icon {
     width: 48px;
@@ -53,7 +42,6 @@
     }
 
     .footer-title {
-        font-size: 24px;
     }
 
     .footer-icon {
