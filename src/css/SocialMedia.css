@@ -1,8 +1,7 @@
 .social-media-section {
-    padding-left: 120px;
+    padding: 0 10vw;
     margin-top: 41px;
     margin-bottom: 70px;
-    padding-left: 100px;
 }
 .social-media-section > div {
     align-items: center;

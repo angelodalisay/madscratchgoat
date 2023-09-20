@@ -1,6 +1,8 @@
 .footer-container {
     display:flex;
     margin-bottom: 10px;
+    width: 100%;
+    padding: 0 10vw;
 }
 
 .footer-container .social-media-section .icon-container {
