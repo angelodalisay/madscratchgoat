@@ -21,11 +21,11 @@ export default function Footer() {
                 </div>
                 <div className="footer-links">
                     <p className="footer-title">Links</p><br />
-                    <h3>Developers: Dashona Holt, Lucile Jones, Natalie Taylor, Benjamin Vredevelt</h3> <br />
-                    <a href="https://dashonaholtsportfolio.netlify.app/" className="website-link">Dashona's Portfolio</a>
-                    <a href="https://lucilejones-portfolio.onrender.com/" className="website-link">Lucile's Portfolio</a>
-                    <a href="https://sisterchicago.github.io/portfolio/" className="website-link">Natalie's Portfolio</a>
-                    <a href="https://super-stardust-4644df.netlify.app/about" className="website-link">Benjamin's Portfolio</a>
+                    <h3>Made By: Dashona Holt, Lucile Jones, Natalie Taylor, Benjamin Vredevelt</h3> <br />
+                    <a href="https://dashonaholtsportfolio.netlify.app/" target="_blank" className="website-link">Dashona's Portfolio</a>
+                    <a href="https://lucilejones-portfolio.onrender.com/" target="_blank" className="website-link">Lucile's Portfolio</a>
+                    <a href="https://sisterchicago.github.io/portfolio/" target="_blank" className="website-link">Natalie's Portfolio</a>
+                    <a href="https://super-stardust-4644df.netlify.app/about" target="_blank" className="website-link">Benjamin's Portfolio</a>
                 </div>
             </div>
             <script>
