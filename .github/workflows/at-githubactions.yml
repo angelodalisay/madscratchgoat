@@ -24,11 +24,11 @@ jobs:
       run: npm install
     - name: Run build
       run: npm run build --if-present
-    - name: Deploy to Server
-      uses: appleboy/ssh-action@v0.1.9
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }} 
-        password: ${{ secrets.PASSWORD }}
-        proxy_port: ${{ secrets.PORT }}
+    # - name: Deploy to Server
+    #   uses: appleboy/ssh-action@v0.1.9
+    #   with:
+    #     host: ${{ secrets.SSH_HOST }}
+    #     username: ${{ secrets.SSH_USER }}
+    #     key: ${{ secrets.SSH_PRIVATE_KEY }} 
+    #     password: ${{ secrets.PASSWORD }}
+    #     proxy_port: ${{ secrets.PORT }}
