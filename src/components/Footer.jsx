@@ -20,8 +20,7 @@ export default function Footer() {
                 
                 </div>
                 <div className="footer-links">
-                    <p className="footer-title">Links</p><br />
-                    <h3>Made By: Dashona Holt, Lucile Jones, Natalie Taylor, Benjamin Vredevelt</h3> <br />
+                    <h3>Made By:</h3><br />
                     <a href="https://dashonaholtsportfolio.netlify.app/" target="_blank" className="website-link">Dashona's Portfolio</a>
                     <a href="https://lucilejones-portfolio.onrender.com/" target="_blank" className="website-link">Lucile's Portfolio</a>
                     <a href="https://sisterchicago.github.io/portfolio/" target="_blank" className="website-link">Natalie's Portfolio</a>
