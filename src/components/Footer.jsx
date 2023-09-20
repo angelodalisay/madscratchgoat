@@ -16,6 +16,7 @@ export default function Footer() {
                     <a href="https://super-stardust-4644df.netlify.app/about" target="_blank" className="website-link">Benjamin's Portfolio</a>
                 </div>
             <p className="copywrite">© MADSCRATCH G.O.A.T { new Date().getFullYear()}</p>
+            </div>
         </div>
     )
 }
