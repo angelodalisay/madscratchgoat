@@ -29,8 +29,6 @@ function Contact() {
             setSentEmail(true)
         } else {
             alert ('Please fill in all fields.')
-            
-            console.log('test')
         }
     }
 
