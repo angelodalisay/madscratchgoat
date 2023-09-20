@@ -20,15 +20,17 @@ export default function Footer() {
                 
                 </div>
                 <div className="footer-links">
-                    {/* <p className="footer-title">Links</p>
-                    <a href="" className="website-link">www.website.com</a>
-                    <a href="" className="website-link">www.website.com</a> */}
+                    <h3>Made By:</h3><br />
+                    <a href="https://dashonaholtsportfolio.netlify.app/" target="_blank" className="website-link">Dashona's Portfolio</a>
+                    <a href="https://lucilejones-portfolio.onrender.com/" target="_blank" className="website-link">Lucile's Portfolio</a>
+                    <a href="https://sisterchicago.github.io/portfolio/" target="_blank" className="website-link">Natalie's Portfolio</a>
+                    <a href="https://super-stardust-4644df.netlify.app/about" target="_blank" className="website-link">Benjamin's Portfolio</a>
                 </div>
             </div>
             <script>
 
             </script>
-            <p className="copywrite">Copywrite { new Date().getFullYear()} MADSCRATCH G.O.A.T</p>
+            <p className="copywrite">© MADSCRATCH G.O.A.T { new Date().getFullYear()}</p>
         </div>
     )
 }
