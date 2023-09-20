@@ -24,16 +24,25 @@
 }
 
 .website-link {
+    padding: 6px;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.website-link:hover {
+    color:rgb(238, 150, 88);
     font-family: Roboto;
     font-size: 12px;
 }
 
 .copywrite {
+    margin-top: 44px;
     font-family: Roboto;
-    font-size: 10px;
+    font-size:10px;
     /* padding-left: 15px;
     padding-right: 15px; */
     padding-bottom: 20px;
+    text-align: center;
 }
 
 @media (min-width: 1025px) {
