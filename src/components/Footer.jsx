@@ -13,10 +13,12 @@ export default function Footer() {
                     {/* <p className="footer-title">Social Media</p> */}
                     <div>
                     <a href=""><img src={Instagram} alt="instagram icon" className="footer-icon"/></a>
-                <a href=""><img src={Facebook} alt="facebook icon" className="footer-icon"/></a>
-                <a href=""><img src={Twitter} alt="facebook icon" className="footer-icon"/></a>
-                <a href=""><img src={TikTok} alt="facebook icon" className="footer-icon"/></a>
+                        <a href=""><img src={Facebook} alt="facebook icon" className="footer-icon"/></a>
+                        <a href=""><img src={Twitter} alt="facebook icon" className="footer-icon"/></a>
+                        <a href=""><img src={TikTok} alt="facebook icon" className="footer-icon"/></a>
                     </div>
+
+                    
                 
                 </div>
                 <div className="footer-links">
