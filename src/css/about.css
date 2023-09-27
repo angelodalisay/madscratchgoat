@@ -1,16 +1,24 @@
+/* CSS */
 .aboutCarouselContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.aboutCarouselContainer img {
+  filter: grayscale(100%); 
 }
 
 #about-header {
   background-color: rgb(0, 0, 0);
-  font-family: 'Titillium Web';
+  font-family: 'Open Sans', sans-serif;
   font-size: 36px;
   color: rgb(246, 243, 242);
-  margin-block: 7%;
-  text-align: center;
+  margin-block: 5%;
+  margin-left:10%;
+  margin-right: 10%;
+  text-align: left;
 }
 
 #about-carousel-box {
@@ -86,7 +94,7 @@
   margin-left: 10%;
   margin-right: 10%;
   font-size: 32px;
-  font-family: 'Titillium Web';
+  font-family: Roboto;
   color: rgb(246, 243, 242);
 }
 
