@@ -1,11 +1,10 @@
 import ReactPlayer from "react-player/soundcloud";
 import '../css/SoundCloud.css'
-
+import './soundcloud';
 
 
 export default function SoundCloud() {
-
-
+    Soundcloud();
     return (
         <div className="sound-cloud-section" id="music">
             <p className="title">Music</p>
