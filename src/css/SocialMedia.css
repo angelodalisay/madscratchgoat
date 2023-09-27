@@ -1,53 +1,41 @@
-/* CSS */
-.social-media-container {
-    padding: 20px;
-    border-radius: 8px;
-  }
+.social-media-section {
+  padding: 0 10vw;
+  margin-top: 41px;
+  margin-bottom: 70px;
+}
+.social-media-section > div {
+  align-items: center;
+  margin-left: 10%;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
   
-  .social-media-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.icon-container {
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.social-media-section a {
+}
+
+@media (min-width: 1025px) {
+  .social-media-section {
   }
-  
-  .social-media-icons {
-    margin-right: 20px;
-  }
-  
-  .icon-container {
-    display: flex;
-  }
-  
-  .icon-container a {
-    margin-right: 15px;
-    color: #333; /* Icon color */
-  }
-  
-  .media-links {
-    text-align: right;
-  }
-  
-  .media-links a {
-    display: block;
-    margin-bottom: 10px;
-    color: #333; /* Link color */
-    text-decoration: none;
-  }
-  
+
   .title {
-    font-weight: bold;
-    margin-bottom: 10px;
+      font-size: 32px;
+      margin-bottom: 40px;
   }
-  
-  @media (max-width: 768px) {
-    .social-media-content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .social-media-icons {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
+
+  .icon-container {
+
   }
-  
+
+}
