@@ -19,6 +19,8 @@
   margin-left:10%;
   margin-right: 10%;
   text-align: left;
+  position: relative;
+  z-index: 5;
 }
 
 #about-carousel-box {
@@ -96,6 +98,8 @@
   font-size: 32px;
   font-family: Roboto;
   color: rgb(246, 243, 242);
+  position: relative;
+  z-index: 5;
 }
 
 .slick-center .aboutBox .aboutImg {
