@@ -1,16 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-import img1 from '../images/1.png'
-import img2 from '../images/2.png'
-import img3 from '../images/3.png'
-import img4 from '../images/4.png'
-import img5 from '../images/5.png'
+import img1 from '../assets/1.png'
+import img2 from '../assets/2.png'
+import img3 from '../assets/3.png'
+import img4 from '../assets/4.png'
+import img5 from '../assets/5.png'
 
-import Slider from 'react-slick'
-
+import Slider from 'react-slick';
 
 function About() {
   var settings = {
@@ -20,7 +19,7 @@ function About() {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-
+    centerMode: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -48,45 +47,37 @@ function About() {
       }
     ]
   };
+
   return (
     <>
-    <h2 id='header-2' >About Mad Scratch Goat</h2>
-
-<div id="carousel-box">
-<div className="carousel">
-
-<Slider {...settings}>
-  
-<div className="box">
-  <img src={img1} alt="" className="img" />
-</div>
-
-<div className="box">
-<img src={img2} alt="" className="img" />
-</div>
-
-<div className="box">
-<img src={img3} alt="" className="img" />
-</div>
-
-<div className="box">
-<img src={img4} alt="" className="img" />
-</div>
-
-<div className="box">
-<img src={img5} alt="" className="img" />
-</div>
-
-</Slider>
-
-</div>
-</div>
-
-    <p id='paragraphs'>We are a team of passionate DJs who love to bring the party to life with our music. With years of experience under our belt, we know how to keep the crowd moving and create an unforgettable experience for everyone.</p>
-    <p id='paragraphs'>Whether it's a wedding, corporate event, or private party, we have the expertise and equipment to make it a success. Contact us to learn more about our services and how we can make your next event a hit!</p>
-
+      <h2 id='about-header'>About Mad Scratch Goat</h2>
+      <div className="aboutCarouselContainer">
+      <div id="about-carousel-box">
+        <div className="aboutCarousel">
+          <Slider {...settings} centerMode={true}>
+            <div className="aboutBox">
+              <img src={img1} alt="" className="aboutImg" />
+            </div>
+            <div className="aboutBox">
+              <img src={img2} alt="" className="aboutImg" />
+            </div>
+            <div className="aboutBox">
+              <img src={img3} alt="" className="aboutImg" />
+            </div>
+            <div className="aboutBox">
+              <img src={img4} alt="" className="aboutImg" />
+            </div>
+            <div className="aboutBox">
+              <img src={img5} alt="" className="aboutImg" />
+            </div>
+          </Slider>
+        </div>
+      </div>
+      </div>
+      <p id='paragraphs'>We are a team of passionate DJs who love to bring the party to life with our music. With years of experience under our belt, we know how to keep the crowd moving and create an unforgettable experience for everyone.</p>
+      <p id='paragraphs'>Whether it's a wedding, corporate event, or private party, we have the expertise and equipment to make it a success. Contact us to learn more about our services and how we can make your next event a hit!</p>
     </>
   )
 }
 
-export default About
+export default About;
