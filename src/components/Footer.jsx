@@ -6,10 +6,17 @@ export default function Footer() {
         <div className="footer-container">
             <div className="footer-sub-container">
                 <div className="footer-social-media">
-                <SocialMedia/>                
+                    {/* <p className="footer-title">Social Media</p> */}
+                    <div>
+                        <a href=""><img src={Instagram} alt="instagram icon" className="footer-icon"/></a>
+                        <a href=""><img src={Facebook} alt="facebook icon" className="footer-icon"/></a>
+                        <a href=""><img src={Twitter} alt="facebook icon" className="footer-icon"/></a>
+                        <a href=""><img src={TikTok} alt="facebook icon" className="footer-icon"/></a>
+                    </div>
                 </div>
                 <div className="footer-links">
-                    <h3>Made By:</h3><br />
+                    <p className="footer-title">Links</p><br />
+                    <h3>Made By: Dashona Holt, Lucile Jones, Natalie Taylor, Benjamin Vredevelt</h3> <br />
                     <a href="https://dashonaholtsportfolio.netlify.app/" target="_blank" className="website-link">Dashona's Portfolio</a>
                     <a href="https://lucilejones-portfolio.onrender.com/" target="_blank" className="website-link">Lucile's Portfolio</a>
                     <a href="https://sisterchicago.github.io/portfolio/" target="_blank" className="website-link">Natalie's Portfolio</a>
@@ -17,6 +24,10 @@ export default function Footer() {
                 </div>
             <p className="copywrite">© MADSCRATCH G.O.A.T { new Date().getFullYear()}</p>
             </div>
+            <script>
+
+            </script>
+            <p className="copywrite">© MADSCRATCH G.O.A.T { new Date().getFullYear()}</p>
         </div>
     )
 }
