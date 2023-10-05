@@ -1,75 +1,65 @@
 .footer-container {
-    display:flex;
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 0 10vw;
-}
-
-.footer-container .social-media-section .icon-container {
-    display:flex;
-    width:100%;
-}
-.footer-container .social-media-section {
-    padding: 0;
-}
-
-.footer-icon {
-    width: 48px;
-    margin-right: 16px;
-}
-
-.footer-links {
+    display: block;
+    width: 75%;
+    margin-top: 15px;
+    padding: 0 10%;
+    padding-top: 10%;
+    text-align: left;
+  
+  }
+  
+  .footer-icon-container h1,
+  .footer-links h2 {
+    padding-bottom: 20px;
+    text-align: left; /* Align headings to the left */
+  }
+  
+  .footer-links h2 {
+    margin-top: 10px;
+  }
+  
+  .footer-links {
     display: flex;
     flex-direction: column;
-}
-
-.website-link {
-    padding: 6px;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    padding-block: 20px;
+  }
+  
+  .footer-icons a {
+    padding-right: 20px;
+  }
+  
+  .footer-links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 25px;
+    
+  }
+  
+  .website-link {
+    margin: 10px 0;
+  }
+  
+  .footer-copyright {
+    padding-block: 25px;
+    margin-bottom: 10px;
     font-family: Roboto;
-    font-size: 12px;
-}
-
-.website-link:hover {
-    color:rgb(238, 150, 88);
-    font-family: Roboto;
-    font-size: 12px;
-}
-
-.copywrite {
-    margin-top: 44px;
-    font-family: Roboto;
-    font-size:10px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-@media (min-width: 1025px) {
-    .footer-container {
-        margin-top: 118px;
-        padding-left: 145px;
-        padding-right: 145px;
-    }
-
-    .footer-title {
-    }
-
-    .footer-icon {
-        width: 34px;
-    }
-
-    /* .footer-sub-container {
-        padding-left: 140px;
-        padding-right: 140px
-    } */
-
-    .footer-links {
-        padding-left: 150px;
-    }
-
-    .copywrite {
-        font-size: 20px;
-    }
-
-}
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left; 
+  }
+  
