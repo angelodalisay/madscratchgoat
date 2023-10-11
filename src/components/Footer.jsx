@@ -34,6 +34,7 @@ export default function Footer() {
             <div className="footer-links">
                 <div className="footer-links-wrapper">
                 <h3>Website made by:</h3>
+
                     <a href="https://dashonaholtsportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="website-link">Dashona</a>
                     <a href="https://lucilejones-portfolio.onrender.com/" target="_blank" rel="noopener noreferrer" className="website-link">Lucile</a>
                     <a href="https://sisterchicago.github.io/portfolio/" target="_blank" rel="noopener noreferrer" className="website-link">Natalie</a>
