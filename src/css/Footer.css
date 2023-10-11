@@ -11,7 +11,7 @@
   .footer-icon-container h1,
   .footer-links h2 {
     padding-bottom: 20px;
-    text-align: left; /* Align headings to the left */
+    text-align: left;
   }
   
   .footer-links h2 {
@@ -20,7 +20,7 @@
   
   .footer-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: start;
     align-items: flex-start;
     text-align: left;
@@ -40,14 +40,18 @@
   
   .footer-links-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
     gap: 25px;
     
   }
-  
+
+  .footer-links-wrapper h3 {
+    margin: 8px 0;
+  }
+
   .website-link {
     margin: 10px 0;
   }
@@ -62,4 +66,17 @@
     line-height: normal;
     text-align: left; 
   }
-  
+  @media screen and (min-width: 768px) {
+  .footer-icons {
+    justify-content: space-between;
+    max-width: 50%;
+  }
+
+  .footer-icons a {
+    padding-right: 20px;
+  }
+
+  .footer-links-wrapper {
+    gap: 15px
+  }
+}
