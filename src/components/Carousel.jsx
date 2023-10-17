@@ -32,14 +32,14 @@ function Carousel() {
 
     return (
         
-    <div className="carousel">
-              
+    <div className="carousel">    
       <Slider {...settings}>
         <img src={image1} alt='' />
         <img src={img2} alt='' />
         <img src={img3} alt='' />
         <img src={img4} alt='' />
       </Slider>
+      
       <div id='book-now'>
         <a href='#contact'>
           <button className='book-now'>BOOK NOW</button>

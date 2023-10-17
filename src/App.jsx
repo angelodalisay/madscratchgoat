@@ -3,6 +3,7 @@ import Carousel from "./components/Carousel"
 // import Hello from "./components/Hello";
 import BookNowButton from "./components/BookNowButton"
 import About from "./components/About";
+import Review from './components/Review'
 import SoundCloud from "./components/SoundCloud";
 import SocialMedia from "./components/SocialMedia";
 import Contact from "./components/Contact";
@@ -15,6 +16,7 @@ export default function App() {
             <Navbar />
             <Carousel />
             <About />
+            <Review />
             <SocialMedia />
             <SoundCloud />
             <Contact />

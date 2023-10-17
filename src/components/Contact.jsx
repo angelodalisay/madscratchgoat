@@ -35,7 +35,7 @@ function Contact() {
     return (
         <div id='contact'>
             <div className='contact-us'>
-                <h1 className='header'>Contact us</h1>
+                <h1 className='header'>Contact Us</h1>
                 <div className='text-input'>
                     <label className='label'>Name</label>
                     <input 
@@ -67,8 +67,10 @@ function Contact() {
                     </textarea>
                 </div>
                 {/* once email form has been completed and validated display Thank you/sent message*/}
-                <span className='sentEmail' onClick={sentEmail ? 'visible' : null}>Thank you for your message. We'll be in touch!</span>    
+                    
                 <button className='submit' onClick={submit}>Submit Message</button>
+
+                <span className= {sentEmail ? 'visible' : undefined}>Thank you for your message. We'll be in touch!</span>
 
             </div>   
         </div>
