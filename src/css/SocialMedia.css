@@ -1,7 +1,7 @@
 .social-media-section {
+    padding: 0 10vw;
     margin-top: 41px;
     margin-bottom: 70px;
-
 }
 .social-media-section > div {
     align-items: center;
@@ -12,7 +12,6 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    margin-bottom: 24px;
     
 }
 
@@ -23,13 +22,11 @@
     margin-top: 15px;
 }
 
-.icon {
-    width: 48px;
+.social-media-section a {
 }
 
 @media (min-width: 1025px) {
     .social-media-section {
-
     }
 
     .title {
@@ -38,7 +35,7 @@
     }
 
     .icon-container {
-        width: 25%;
+
     }
 
 }
