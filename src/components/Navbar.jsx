@@ -1,4 +1,4 @@
-import '../css/navbar.css'
+import '../css/Navbar.css'
 import Logo from "../assets/MadScratchGoatLogo.png"
 
 export default function Navbar() {
