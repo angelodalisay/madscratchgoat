@@ -32,35 +32,39 @@ function Carousel() {
 
     return (
         
-          <div className="carousel">
-                <Slider {...settings}>
-                <div className="carousel-slide">
-                <div className="img-container">
-                    <img src={image1} alt='' className="img"/>
-                    <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
-                </div>
-                </div>
-                <div className="carousel-slide">
-                <div className="img-container">
-                    <img src={img2} alt='' className="img"/>
-                    <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
-                </div>
-                </div>
-                <div className="carousel-slide">
-                <div className="img-container">
-                    <img src={img3} alt='' className="img"/>
-                    <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
-                </div>
-                </div>
-                <div className="carousel-slide">
-                <div className="img-container">
-                    <img src={img4} alt='' className="img"/>
-                    <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
-                </div>
-                </div>
-                </Slider>
-
+      <div className="carousel">
+        <Slider {...settings}>
+          <div className="carousel-slide">
+            <div className="img-container">
+              <img src={image1} alt='DJ equipment' className="img"/>
+              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
             </div>
+          </div>
+          <div className="carousel-slide">
+            <div className="img-container">
+              <img src={img2} alt='dancing woman' className="img"/>
+              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+            </div>
+          </div>
+          <div className="carousel-slide">
+            <div className="img-container">
+              <img src={img3} alt='DJ at sound board' className="img"/>
+              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+            </div>
+          </div>
+          <div className="carousel-slide">
+            <div className="img-container">
+              <img src={img4} alt='hands raised in fog' className="img"/>
+              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+            </div>
+          </div>
+        </Slider>
+        <div id='book-now'>
+            <a href='#contact'>
+              <button className='book-now'>BOOK NOW</button>
+            </a>
+        </div>
+     </div>
         
     )
 }   
