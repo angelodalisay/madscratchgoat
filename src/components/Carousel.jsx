@@ -31,31 +31,32 @@ function Carousel() {
       };
 
     return (
-        
+      <>  
+      <div className="carousel-container">
       <div className="carousel">
         <Slider {...settings}>
           <div className="carousel-slide">
             <div className="img-container">
               <img src={image1} alt='DJ equipment' className="img"/>
-              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+              <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span></p>
             </div>
           </div>
           <div className="carousel-slide">
             <div className="img-container">
               <img src={img2} alt='dancing woman' className="img"/>
-              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+              <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span></p>
             </div>
           </div>
           <div className="carousel-slide">
             <div className="img-container">
               <img src={img3} alt='DJ at sound board' className="img"/>
-              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+              <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span></p>
             </div>
           </div>
           <div className="carousel-slide">
             <div className="img-container">
               <img src={img4} alt='hands raised in fog' className="img"/>
-              <p className="img-label">MAD SCRATCH<br />G.O.A.T</p>
+              <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span>T</p>
             </div>
           </div>
         </Slider>
@@ -65,7 +66,8 @@ function Carousel() {
             </a>
         </div>
      </div>
-        
+     </div>
+     </>    
     )
 }   
 
