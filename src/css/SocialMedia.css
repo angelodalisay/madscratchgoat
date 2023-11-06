@@ -1,45 +1,41 @@
 .social-media-section {
-    padding: 15px;
-    margin-top: 41px;
-    margin-bottom: 70px;
-    padding-left: 100px;
+  padding: 0 10vw;
+  margin-top: 41px;
+  margin-bottom: 70px;
 }
 .social-media-section > div {
-    align-items: center;
+  align-items: center;
+  margin-left: 10%;
 }
 
 .title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 24px;
-    
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  
 }
 
 .icon-container {
-    width: 57%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+  width: 57%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
-.icon {
-    width: 48px;
+.social-media-section a {
 }
 
 @media (min-width: 1025px) {
-    .social-media-section {
-        padding-left: 145px;
-        padding-right: 145px;
-    }
+  .social-media-section {
+  }
 
-    .title {
-        font-size: 32px;
-        margin-bottom: 40px;
-    }
+  .title {
+      font-size: 32px;
+      margin-bottom: 40px;
+  }
 
-    .icon-container {
-        width: 25%;
-    }
+  .icon-container {
+
+  }
 
 }
