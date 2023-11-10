@@ -1,3 +1,4 @@
+{/* 
 import { useEffect, useState } from 'react';
 import '../css/ScrollToTopButton.css';
 
@@ -40,4 +41,5 @@ export default function ScrollToTopButton() {
             Back to Top
         </button>
     );
-}
+} 
+*/}
