@@ -38,7 +38,6 @@ function Carousel() {
           <div className="carousel-slide">
             <div className="img-container">
               <img src={image1} alt='DJ equipment' className="img"/>
-
               <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span></p>
             </div>
           </div>
@@ -51,14 +50,13 @@ function Carousel() {
           <div className="carousel-slide">
             <div className="img-container">
               <img src={img3} alt='DJ at sound board' className="img"/>
-
               <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span></p>
             </div>
           </div>
           <div className="carousel-slide">
             <div className="img-container">
               <img src={img4} alt='hands raised in fog' className="img"/>
-              <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span>T</p>
+              <p className="img-label">MAD SCRATCH<br /><span className="goat">G.O.A.T.</span></p>
             </div>
           </div>
         </Slider>
