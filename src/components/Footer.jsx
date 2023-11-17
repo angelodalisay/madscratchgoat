@@ -8,6 +8,7 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 export default function Footer() {
     return (
         <div className="footer-container">
+
             <div className="footer-icon-container">
                 <h1>Stay Connected</h1>
                 <div className="footer-icons">
@@ -34,12 +35,11 @@ export default function Footer() {
             <div className="footer-links">
                 <div className="footer-links-wrapper">
                 <h3>Website made by:</h3>
-
                     <a href="https://dashonaholtsportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="website-link">Dashona</a>
                     <a href="https://lucilejones-portfolio.onrender.com/" target="_blank" rel="noopener noreferrer" className="website-link">Lucile</a>
                     <a href="https://sisterchicago.github.io/portfolio/" target="_blank" rel="noopener noreferrer" className="website-link">Natalie</a>
-                    <a href="https://super-stardust-4644df.netlify.app/about" target="_blank" rel="noopener noreferrer" className="website-link">Benjamin</a>
                     <a href="https://matthew-robinson-web-dev.netlify.app/" target="_blank" rel="noopener noreferrer" className="website-link">Matthew</a>
+                    <a href="https://benvredevelt.com" target="_blank" className="website-link">Benjamin's Portfolio</a>
                 </div>
             </div>
             <div className="footer-copyright">
